@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Test Site</title>
+</head>
+<style>
+/* Apply this selector to the element on which this effects needs to be applied*/
+.Text {
+	color: #E3E3E3;
+	font-family: "HaxrCorp 4089 Cyrillic AltGr";
+	font-size: 2em;
+	text-align: center;
+}
+/*
+  Below is the syntax for adding values to the box shadow property 
+  box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit;
+*/
+	
+/* 
+Define this in your CSS 
+.bgColor = Replace it by the name you want to give your animation
+.bgAnimObj = Assign this class to the object you want to apply the effect
+*/
+
+.bgAnimObj {
+	background: #1abc9c;
+	/* Chrome, Safari */
+	-webkit-animation: bgColor 5s;
+	/* Firefox */
+	-moz-animation: bgColor 5s;
+	/* Standard Syntax */
+	animation: bgColor .5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+/* 
+Define the keyframe and changes
+*/
+
+/* Chrome, Safari */
+@-webkit-keyframes bgColor {
+	from {
+ 		background: #1abc9c;
+	} 
+	to {
+ 		background: #ebebeb;
+	}
+}
+
+/* Firefox */
+@-moz-keyframes bgColor {
+    from {
+        background: #1abc9c;
+    }
+    to {
+        background: #ebebeb;
+    }
+}
+
+/* Standard syntax */
+@keyframes bgColor {
+	from {
+		background: #5B1F35;
+	}
+	to {
+		background: #222222;
+	}
+}
+
+	
+.boxShadow {
+	/*Chrome, Safari*/
+	-webkit-box-shadow: 6px 6px 12px 8px #ebebeb;
+	/*Standard Syntax*/
+	box-shadow: 0px 0px 0px 2px #161616;
+}
+.box{
+	/* Add this as a property for a selector to which the effect has to be applied*/
+	/* Chrome and Safari */
+	-webkit-border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	/* Firefox */
+	-moz-border-radius-topleft:20px;
+	-moz-border-radius-topright:20px;
+	-moz-border-radius-bottomright:20px;
+	-moz-border-radius-bottomleft:20px;
+	/* Standard Syntax */
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #2E2E2E;
+	width: 30%;
+	margin: 0 auto;
+	
+}
+</style>
+<body style="background-color: #1c1c1c">
+	<header class="box boxShadow bgAnimObj">
+		<p class="Text">This is my first CSS inline styling_</p>
+	</header>
+</body>
+</html>
