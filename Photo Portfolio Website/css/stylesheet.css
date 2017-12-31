@@ -1,0 +1,28 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #1a1a1a;
+}
+
+img{
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+}
+div{
+	margin: auto;
+	width: 90%;
+}
+
+h1{
+/*	margin: 1.5%;
+*/	font-family: "Tahoma";
+	font-size: 1.4em;
+	font-weight: 100;
+	border-bottom: 2px solid #ffffff;
+	border-bottom-width: 1px;
+	width: 100%;
+	text-align: left;
+	color: #ffffff;
+}
