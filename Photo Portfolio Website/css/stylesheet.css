@@ -2,7 +2,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: #1a1a1a;
+	background: #120711;
 }
 
 img{
@@ -17,12 +17,13 @@ div{
 
 h1{
 /*	margin: 1.5%;
-*/	font-family: "Tahoma";
-	font-size: 1.4em;
+*/	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
 	font-weight: 100;
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 2px solid #C9283E;
 	border-bottom-width: 1px;
-	width: 100%;
+	width: 30%;
 	text-align: left;
-	color: #ffffff;
+	color: #F0433A;
+	text-transform: uppercase;
 }
