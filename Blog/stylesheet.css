@@ -21,12 +21,13 @@ body{
 h1{
 	color: white;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 h3{
 	color: #D9CB9E;
     font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.2rem;
 }
 
 p{
