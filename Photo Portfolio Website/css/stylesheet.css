@@ -8,8 +8,10 @@ body{
 img{
 	width: 30%;
 	margin: 1.5%;
+	float: left;
 }
 div{
+	clear: left;
 	margin: auto;
 	width: 90%;
 }
@@ -21,7 +23,7 @@ h1{
 	font-weight: 100;
 	border-bottom: 2px solid #C9283E;
 	border-bottom-width: 1px;
-	width: 30%;
+	width: 100%;
 	text-align: left;
 	color: #F0433A;
 	text-transform: uppercase;
