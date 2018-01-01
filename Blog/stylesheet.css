@@ -1,6 +1,7 @@
 .main{
 	background-color: #2A2C2B;
-	width: 60%;
+	max-width: 700px;
+	width: 80%;
 	border-top: 10px solid #374140;
 	border-bottom: 10px solid #374140;
 	height: 100%;
