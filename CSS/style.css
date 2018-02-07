@@ -1,0 +1,70 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.epic{
+    border: none;
+    background: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    transition: all .2s ease;
+}
+
+.epic:hover{
+    background: black;
+}
+
+.epic:focus{
+    padding: 13px;
+}
+
+img{
+    transition:all .3s ease;
+}
+
+.frog{
+    background: lightgreen;
+}
+
+
+.circle{
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background: black;
+    margin: 10px;
+    transition: all .5s ease;
+}
+
+.text{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: black;
+    line-height: normal;
+    height: 110px;
+}
+
+.inp{
+    outline: none;
+    margin: 10px;
+    border: 1px dashed black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+}

@@ -3,15 +3,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="Test1/main.css">
-    <script src="Libs/jquery-3.3.1.js"></script>
-    <script src="Libs/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-    <link rel="stylesheet" href="Libs/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <title>LOL</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="Libs/vue.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
 </head>
 
 <body>
-    <div></div>
-    <script type="text/javascript" src="Test1/main.js"></script>
+    <div id="app" :class="{frog:check()}" :style="{border:'4px solid '+title}">
+        <div v-if="title != 'frog'" class="circle" :style="{padding:radius+'px',background:title}"></div>
+        <div v-else>
+        <img src="http://www.freepngimg.com/download/frog/1-frog-png-image.png" :style='{width:radius+"px"}' alt=""></div>
+        <p class="text" :style="{color:title}">{{title}}</p>
+        <input class="inp" @change="black" v-model="title" type="text" :style="{border:'1px dashed '+title}">
+        <button class="epic" @click="clicky" :style="{background:title}">clicky</button>
+        <button class="epic" @click="clicky2" :style="{background:title}">clacky</button>
+    </div>
+    <script type="text/javascript" src="./JS/script.js"></script>
 </body>
 </html>
